@@ -6,7 +6,8 @@ import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FaHome } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 export const Sidebar = () => {
@@ -30,6 +31,16 @@ export const Sidebar = () => {
                 < FaEnvelope  />
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/max-ascanio-485210233" > </a>
+                 < FaLinkedin />
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="https://github.com/maxt0d0nt" > </a>
+                 < FaGithub />
+            </li>
+        </ul>
     </div>
     </>
   )
