@@ -45,6 +45,7 @@ export const Home = () => {
             <Link to='/contact' className='flat-button'>CONTACT ME</Link>
         </div>
     </div>
+    <span class="loader"></span>
     </>
   )
 }

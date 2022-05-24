@@ -6,6 +6,7 @@ import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+
 import './About.scss';
 
 export const About = () => {
@@ -24,7 +25,7 @@ export const About = () => {
             <h1>
                 <Animated letterClass={letterClass}
                     strArray={["A", 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                    idx={15}
+                    idx={20}
                 />
             </h1>
             <p>Lorem ipsum kdwchwkcbwkcgn bewcevwciec kdcbwekhvc    </p>
@@ -40,26 +41,27 @@ export const About = () => {
             </div>
 
             <div className='face2'>
-                < FaGitAlt color={'red'}/>
+                < FaGitAlt color={'red'} />
             </div>
 
             <div className='face3'>
-                < FaJs color={'#efd81d'}/>
+                < FaJs color={'#efd81d'} />
             </div>
             
             <div className='face4'>
-                < FaReact color={'#28a4d9'}/>
+                < FaReact color={'#28a4d9'} />
             </div>
             
             <div className='face5'>
-                < FaHtml5 color={'#f06529'}/>
+                < FaHtml5 color={'#f06529'} />
             </div>
             
             <div className='face6'>
-                < FaLinkedin color={'blue'}/>
+                < FaLinkedin color={'blue'} />
             </div>
         </div>
     </div>
-    </>
+    <span class="loader" id='spiner'></span>
+ </>
   )
 }

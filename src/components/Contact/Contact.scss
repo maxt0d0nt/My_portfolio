@@ -1,44 +1,4 @@
-.page {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.top-tags {
-    bottom: auto;
-    top: 35px,
-}
-
-.tags {
-    color: #ffd700;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 0;
-    left: 120px;
-    font-size: 18px;
-    font-family: 'La Belle Aurore';
-}
-
-.bottom-tags-html {
-    margin-left: -20px;
-}
-
-.container {
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
-    opacity: 0;
-    top: 5%;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    animation-delay: 1s;
-}
-
-.about-page {
+.contact-page {
     
     .text-zone {
         position: absolute;
@@ -110,5 +70,68 @@
         &:hover {
             color: #fff;
         }
+    }
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+        }
+
+                
+    }
+
+    input[type='text'],
+    input[type='email'] {
+
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        float: right;
+        border-radius: 4px;
+
     }
 }

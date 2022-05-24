@@ -36,7 +36,8 @@
     }
 
     .face2 {
-        transform: rotateY(90px) translateZ(100px);
+        transform: rotateY(90deg)  rotateX(-90deg) translateZ(100px);
+
     }
 
     .face3 {
@@ -52,7 +53,7 @@
     }
 
     .face6 {
-        transform: rotateX(-90deg)  translateZ(100px);
+        transform: rotateY(-270deg)  translateZ(100px);
     }
 }
 
@@ -61,9 +62,11 @@
     to {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
+
     16% {
         transform: rotateY(-90deg);
     }
+    
     33% {
         transform: rotateY(-90deg) rotateZ(90deg);
     }
@@ -80,3 +83,4 @@
         transform: rotateX(90deg);
     }
 }
+
