@@ -41,7 +41,8 @@ export const Home = () => {
             strArray={jobArray}
             idx={22} />
             </h1>
-            <h2>Full-Stack Developer</h2>
+            <h2>FULL-STACK DEVELOPER</h2>
+            <h2>HTML - CSS - JAVASCRIPT - REACT.JS - NODE.JS - SQL - NoSQL</h2>
             <Link to='/contact' className='flat-button'>CONTACT ME</Link>
         </div>
     </div>

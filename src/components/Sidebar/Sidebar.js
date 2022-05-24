@@ -31,12 +31,14 @@ export const Sidebar = () => {
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/max-ascanio-485210233" > </a>
-                 < FaLinkedin />
+                <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/max-ascanio-485210233" > 
+                 < FaLinkedin size={"25px"} />
+                </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://github.com/maxt0d0nt" > </a>
-                 < FaGithub />
+                <a target="_blank" rel="noreferrer" href="https://github.com/maxt0d0nt" >
+                 < FaGithub size={"25px"} />
+                </a>
             </li>
         </ul>
     </div>

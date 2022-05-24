@@ -10,16 +10,17 @@
 }
 
 .tags {
-    color: #ffd700;
+    color: #fff;
     opacity: 0.6;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 120px;
     font-size: 18px;
-    font-family: 'La Belle Aurore';
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .bottom-tags-html {
+    
     margin-left: -20px;
 }
 
@@ -43,7 +44,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 20%;
+        top: 30%;
         transform: rotateY(-50%);
         width: 35%;
         vertical-align: middle;
@@ -53,7 +54,7 @@
         h1 {
             font-size: 53px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: #ffd700;
+            color: #6C635E;
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -62,12 +63,11 @@
 
             &::before {
                 content: '<h1>';
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: #ffd700;
-                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+                font-size: 15px;
                 position: absolute;
-                margin-top: -40px;
-                left: 15px;
+                margin-top: -30px;
                 opacity: 0.6;
                 line-height: 18px;
             
@@ -75,22 +75,22 @@
     
             &::after {
                 content: '</h1>';
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: #ffd700;
-                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+                font-size: 15px;
                 position: absolute;
                 margin-left: 20px;
-                left: -30px;
-                bottom: -20px;
+                left: -20px;
+                bottom: -30px;
                 opacity: 0.6;
                                
                 }
         }
 
         p {
-            font-style: 13px;
-            color: #fff;
-            font-family: sans-serif;
+            font-size: 19px;
+            color: #8d8d8d;
+            font-family:'Helvetica Neue', 'sans-serif';
             font-weight: 300;
             min-width: fit-content;
             animation: pulse 1s;

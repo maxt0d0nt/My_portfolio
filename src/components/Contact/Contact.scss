@@ -3,7 +3,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 20%;
+        top: 13%;
         transform: rotateY(-50%);
         width: 35%;
         vertical-align: middle;
@@ -13,7 +13,7 @@
         h1 {
             font-size: 53px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: #ffd700;
+            color: #6C635E;
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -23,12 +23,11 @@
             &::before {
                 content: '<h1>';
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: #ffd700;
+                color: #fff;
                 font-size: 18px;
                 position: absolute;
                 margin-top: -40px;
-                left: 15px;
-                opacity: 0.6;
+                opacity: 0.7;
                 line-height: 18px;
             
             }
@@ -36,21 +35,21 @@
             &::after {
                 content: '</h1>';
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: #ffd700;
+                color: #fff;
                 font-size: 18px;
                 position: absolute;
                 margin-left: 20px;
-                left: -30px;
-                bottom: -20px;
-                opacity: 0.6;
+                left: -25px;
+                bottom: -30px;
+                opacity: 0.7;
                                
                 }
         }
 
         p {
-            font-style: 13px;
-            color: #fff;
-            font-family: sans-serif;
+            font-size: 18px;
+            color: #8d8d8d;
+            font-family: 'Helvetica Neue', 'sans-serif';
             font-weight: 300;
             min-width: fit-content;
             animation: pulse 1s;
@@ -76,6 +75,7 @@
 .contact-form {
     width: 100%;
     margin-top: 20px;
+   
 
     ul {
         padding: 0;
@@ -97,15 +97,20 @@
                 
     }
 
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #000;
+        opacity: 0.6; /* Firefox */
+      }
+
     input[type='text'],
     input[type='email'] {
 
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #8d8d8d;
         height: 50px;
         font-size: 16px;
-        color: #fff;
+        color: #000;
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -113,11 +118,11 @@
     textarea {
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #8d8d8d;
         height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 20px;
+        font-size: 17px;
+        color: #000;
+        padding: 15px;
         min-height: 150px;
         box-sizing: border-box;
     }
@@ -132,6 +137,12 @@
         border: 1px solid #ffd700;
         float: right;
         border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background: #ffd700;
+        color: #6C635E;
+        }
 
     }
 }

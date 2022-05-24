@@ -28,9 +28,11 @@ export const About = () => {
                     idx={20}
                 />
             </h1>
-            <p>Lorem ipsum kdwchwkcbwkcgn bewcevwciec kdcbwekhvc    </p>
-            <p>Lorem ipsum kdwchwkcbwkcgn bewcevwciec kdcbwekhvc  </p>
-            <p>Lorem ipsum kdwchwkcbwkcgn bewcevwciec kdcbwekhvc  </p>
+            <p>I am a Full-Stack developer looking for a role in established company with the opportunity to work with the latest technologies on challeging and diverse projects</p>
+
+            <p>I am quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time</p>
+
+            <p>If I need to define my self in one sentence that would be a family person, sport fanatic and tech enthusiast with eager to know more and more about it</p>
         </div>
     </div>
 

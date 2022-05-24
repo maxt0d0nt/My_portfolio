@@ -29,7 +29,7 @@ export const Contact = () => {
           <form>
             <ul>
               <li className='half'>
-                <input type='text' name='name' placeholder='Name' required />
+                <input type='text' name='name' placeholder='Name' autoFocus required />
               </li>
 
               <li className='half'>

@@ -10,7 +10,7 @@
     }
 
     h1 {
-        color: #fff;
+        color: #6C635E;
         font-size: 53px;
         margin: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,7 +19,7 @@
         &::before {
             content: '<h1>';
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            color: #ffd700;
+            color: #fff;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -31,7 +31,7 @@
         &::after {
             content: '</h1>';
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            color: #ffd700;
+            color: #fff;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -78,6 +78,6 @@ h2 {
 
     &:hover {
         background: #ffd700;
-        color: #333;
+        color: #6C635E;
     }
 }
