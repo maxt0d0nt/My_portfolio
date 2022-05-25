@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import LogoTitle from '../../assets/images/logo-s.png';
 import { Animated } from '../AnimatedLetters/Animated';
+import LogoM from '../../assets/images/logo-m.png';
 import './Home.scss';
 
 export const Home = () => {
@@ -26,13 +26,14 @@ export const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <span className={`${letterClass} _14`}> </span>
-            <span className={`${letterClass} _15`}>M</span>
-            <span className={`${letterClass} _16`}>a</span>
-            <span className={`${letterClass} _17`}>x</span>
-            <span className={`${letterClass} _14`}> </span>
-            <span className={`${letterClass} _15`}>A</span>
-            <img src={LogoTitle} alt='developer' />
+            <span className={`${letterClass} _15`}> </span>
+            <img src={LogoM} alt='developer' size={'2em'} />
+            <span className={`${letterClass} _17`}>a</span>
+            <span className={`${letterClass} _18`}>x</span>
+            <span className={`${letterClass} _19`}> </span>
+            <span className={`${letterClass} _20`}>A</span>
+            <span className={`${letterClass} _21`}>s</span>
+            
             <Animated letterClass={letterClass}
             strArray={nameArray}
             idx={15} />
