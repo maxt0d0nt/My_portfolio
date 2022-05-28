@@ -8,7 +8,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-
+import { FaBriefcase } from "react-icons/fa";
 
 export const Sidebar = () => {
   return (
@@ -29,6 +29,10 @@ export const Sidebar = () => {
 
             <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                 < FaEnvelope  />
+            </NavLink>
+
+            <NavLink exact='true' activeclassname='active' className='contact-link-P' to='/portfolio'>
+                < FaBriefcase />
             </NavLink>
         </nav>
         <ul>

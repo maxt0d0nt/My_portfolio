@@ -1,0 +1,57 @@
+.portfolio-page {
+    
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 13%;
+        transform: rotateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 53px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #6C635E;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 10px;
+
+            &::before {
+                content: '<h1>';
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #fff;
+                font-size: 18px;
+                position: absolute;
+                margin-top: -40px;
+                opacity: 0.7;
+                line-height: 18px;
+            
+            }
+    
+            &::after {
+                content: '</h1>';
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #fff;
+                font-size: 18px;
+                position: absolute;
+                margin-left: 20px;
+                left: -25px;
+                bottom: -30px;
+                opacity: 0.7;
+                               
+                }
+        }
+
+    
+    }
+
+    .text-animate-hover {
+        &:hover {
+            color: #fff;
+        }
+    }
+}
