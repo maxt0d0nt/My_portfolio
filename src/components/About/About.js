@@ -32,7 +32,7 @@ export const About = () => {
 
             <p>I am quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time</p>
 
-            <p>If I need to define my self in one sentence that would be a family person, sport fanatic and tech enthusiast with eager to know more and more about it</p>
+            <p>If I need to define my self in one sentence that would be I'm a family man, sport fanatic and tech geek with the drive to constantly learn new things</p>
         </div>
     </div>
 
