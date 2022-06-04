@@ -45,8 +45,6 @@
                                
                 }
         }
-
-    
     }
 
     .text-animate-hover {
@@ -71,6 +69,45 @@
             text-decoration: none
 
                     }
-     
+    }
+}
+
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 1023px) {
+
+    .portfolio-page {
+    
+        .text-zone {
+            position: absolute;
+            left: 15%;
+            top: 13%;
+            transform: rotateY(-50%);
+            width: 35%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }   
+    }
+}
+
+
+
+// -------------------- Mobile L ------------------------------
+
+@media screen and (max-width: 600px) {
+
+    .portfolio-page {
+    
+        .text-zone {
+            position: absolute;
+            left: 15%;
+            top: 13%;
+            transform: rotateY(-50%);
+            width: 70%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }   
     }
 }

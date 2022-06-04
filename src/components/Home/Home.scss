@@ -83,3 +83,48 @@ h2 {
         color: #6C635E;
     }
 }
+
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 1023px) {
+
+    .home-page {
+
+        .text-zone {
+            position: absolute;
+            left: 20%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 75%;
+            max-height: 90%;
+        }
+    }
+}
+
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 450px) {
+
+    h1 {
+        color: #6C635E;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            visibility: hidden;
+        }
+
+        &::after {
+            content: '</h1>';
+            visibility: hidden;
+            
+                }
+
+       
+    }
+}
+
+

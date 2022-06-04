@@ -84,3 +84,50 @@
     }
 }
 
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 1023px) {
+    .about-page {
+    
+        .text-zone {
+            position: absolute;
+            left: 15%;
+            top: 17%;
+            transform: rotateY(-50%);
+            width: 35%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+    }
+}
+
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 600px) {
+    .about-page {
+    
+        .text-zone {
+            position: absolute;
+            left: 25%;
+            top: 10%;
+            transform: rotateY(-50%);
+            width: 65%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }
+    }
+
+    .stage-cube-cont {
+        width: 50%;
+        height: 100%;
+        top: 0;
+        padding-top: 700px;
+        padding-left: -800px;
+        margin-left: 0;
+        position: absolute;
+        right: 100px;
+        overflow: hidden;
+    }
+}

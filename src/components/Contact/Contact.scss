@@ -146,3 +146,23 @@
 
     }
 }
+
+//----------------- Tablet size -----------------------------
+
+@media screen and (max-width: 1023px) {
+
+    .contact-page {
+    
+        .text-zone {
+            position: absolute;
+            left: 16%;
+            top: 13%;
+            transform: rotateY(-50%);
+            width: 75%;
+            vertical-align: middle;
+            display: table-cell;
+            max-height: 90%;
+        }}
+
+}
+

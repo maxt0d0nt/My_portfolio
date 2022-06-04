@@ -7,7 +7,7 @@ import './Home.scss';
 export const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['c', 'a', 'n', 'i', 'o']
+    const nameArray = ['A', 's', 'c', 'a', 'n', 'i', 'o']
     const jobArray = ['w', 'e', 'b', '', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r' ] 
 
     useEffect (() => {
@@ -31,9 +31,7 @@ export const Home = () => {
             <span className={`${letterClass} _17`}>a</span>
             <span className={`${letterClass} _18`}>x</span>
             <span className={`${letterClass} _19`}> </span>
-            <span className={`${letterClass} _20`}>A</span>
-            <span className={`${letterClass} _21`}>s</span>
-            
+                        
             <Animated letterClass={letterClass}
             strArray={nameArray}
             idx={15} />
@@ -47,7 +45,7 @@ export const Home = () => {
             <Link to='/contact' className='flat-button'>CONTACT ME</Link>
         </div>
     </div>
-    <span class="loader"></span>
+    
     </>
   )
 }
