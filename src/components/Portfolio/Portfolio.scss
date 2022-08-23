@@ -58,10 +58,25 @@
 .container-work {
 
     position: absolute;
+    display: flex;
 
     .webpage-1 {
         margin-top: 275px;
         margin-left: 200px;
+
+        a {
+            font-size: 25px;
+            display: block;
+            text-decoration: none
+
+                    }
+    }
+
+    .webpage-2 {
+        margin-top: 275px;
+        margin-left: 50px;
+        
+        
 
         a {
             font-size: 25px;
