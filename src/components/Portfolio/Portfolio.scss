@@ -59,24 +59,16 @@
 
     position: absolute;
     display: flex;
-
-    .webpage-1 {
-        margin-top: 275px;
-        margin-left: 200px;
-
-        a {
-            font-size: 25px;
-            display: block;
-            text-decoration: none
-
-                    }
-    }
-
-    .webpage-2 {
-        margin-top: 275px;
-        margin-left: 50px;
-        
-        
+    flex-wrap: wrap;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 90%;
+    
+    .webpage {
+       
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
 
         a {
             font-size: 25px;
@@ -85,6 +77,7 @@
 
                     }
     }
+
 }
 
 //----------------- Tablet size -----------------------------
